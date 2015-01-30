@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MemberViewController.h
 //  MeetMeUp
 //
 //  Created by Dave Krawczyk on 9/8/14.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface MemberViewController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, strong) NSString *memberID;
 
 @end
-

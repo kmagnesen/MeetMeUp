@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  EventDetailViewController.h
 //  MeetMeUp
 //
 //  Created by Dave Krawczyk on 9/8/14.
@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@class Event;
+@interface EventDetailViewController : UIViewController
+@property (nonatomic, strong) Event *event;
 @end
-
